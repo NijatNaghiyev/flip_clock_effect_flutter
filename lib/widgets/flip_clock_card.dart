@@ -63,7 +63,7 @@ class _FlipClockCardState extends State<FlipClockCard> {
                   ..setEntry(3, 2, 0.0005)
                   ..rotateX(rotateDegree),
             child: FlipClockCardItem(
-              canFlip: !canNotRotate && true,
+              canFlip: !canNotRotate,
               animation: widget.animation,
               isTop: widget.isTop,
               content:
